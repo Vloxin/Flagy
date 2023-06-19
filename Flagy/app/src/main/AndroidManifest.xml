@@ -12,14 +12,27 @@
         android:theme="@style/Theme.Flagy"
         tools:targetApi="31">
         <activity
+            android:name=".RecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".Study"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="Quiz Activity" />
     </application>
 
 </manifest>

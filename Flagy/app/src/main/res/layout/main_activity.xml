@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E4BEBE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- First LinearLayout with two TextViews -->
+
+    <!-- Second LinearLayout with an Image and four Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Flagy"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/quiz_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz" />
+
+        <Button
+            android:id="@+id/learn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
